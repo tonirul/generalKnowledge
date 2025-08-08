@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions by Month - Current Affairs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Current Affairs by Month</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="month.html" class="active">By Month</a>
+        <a href="category.html">By Category</a>
+    </nav>
+    <main>
+        <div class="content">
+            <div class="search-container">
+                <input type="text" id="month-search" placeholder="Search questions..." class="search-input">
+            </div>
+            <div id="month-content-container" class="card-grid">
+                </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Current Affairs Website. All rights reserved.</p>
+    </footer>
+
+    <div id="fullscreen-modal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="modal-list-container">
+                </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
