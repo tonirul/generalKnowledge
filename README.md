@@ -1,9 +1,9 @@
-📚 Current Affairs Q&A Web App
+##📚 Current Affairs Q&A Web App
 
 A responsive, interactive web application to browse and practice Current Affairs questions by Month and Category.
 Built using HTML, CSS, and Vanilla JavaScript, this project is perfect for students, teachers, and quiz enthusiasts.
 
-🚀 Features
+##🚀 Features
 
 ✅ Browse by Month – Explore current affairs for a specific month.
 ✅ Browse by Category – Sports, Awards, Books, Science & Tech, National & International Affairs, etc.
@@ -12,7 +12,7 @@ Built using HTML, CSS, and Vanilla JavaScript, this project is perfect for stude
 ✅ Responsive Design – Works on both desktop and mobile.
 ✅ Expandable Dataset – Easy to add new questions via script.js or external JSON file.
 
-🛠️ Tech Stack
+##🛠️ Tech Stack
 
 Frontend: HTML5, CSS3, JavaScript (no frameworks)
 
@@ -22,7 +22,7 @@ Data Handling: JSON-like structure stored in script.js
 
 Hosting: Can run locally or be deployed on GitHub Pages / Netlify
 
-📂 Project Structure
+##📂 Project Structure
 ├── index.html        # Home page
 ├── month.html        # Browse by month
 ├── category.html     # Browse by category
@@ -50,7 +50,7 @@ By Category – explore questions grouped into topics
 
 Click a card → Opens a modal with Q&A list.
 
-✍️ Contributor Guide – Adding New Questions
+##✍️ Contributor Guide – Adding New Questions
 
 All questions live in script.js under the allQuestions object.
 You can also use an external questions.json file for bulk updates.
